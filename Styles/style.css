@@ -21,7 +21,7 @@
     font-weight: bold;
     font-size: 24px;
     line-height: 38px;
-    color: #0D1321;
+    color: rgba(13, 19, 33, 0.7);
 }
 
 .para-style{
@@ -32,7 +32,7 @@
 }
 
 .btn-style{
-    width: 171px;
+    width: 170px;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0%;
@@ -40,6 +40,7 @@
     opacity: 0.7;
     color: #0D1321;
     margin-bottom: 10px;
+    text-align: center;
 }
 .white-color{
     background-color: #FFFFFF;
@@ -91,7 +92,7 @@ nav li button{
     background-image: url('../assets/Hero-bg.png');
     align-items: center;
     padding: 35px 220px 50px 220px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .banner-content{
@@ -140,12 +141,14 @@ nav li button{
     gap: 32px;
     background-color: rgba(13, 19, 33, 0.02);
     padding: 80px 97px;
-    margin: 0 auto;
+    margin: 0 250px auto;
+    border-radius: 16px;
+    margin-bottom: 100px;
 }
 
 .dev-title{
     width: 852px;
-    padding: 0 47px 0 47px;
+    padding: 0 0 0 47px;
 }
 
 .div-inner{
@@ -153,4 +156,39 @@ nav li button{
     padding: 0 30px 0 0;
     text-align: start;
     gap: 32px;
+}
+
+/* Inspiration style */
+.inspiration{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 48px;
+    padding: 0;
+    margin: 0 250px auto;
+    border-radius: 16px;
+    margin-bottom: 100px;
+}
+
+.inspiration-info{
+    max-width: 852px;
+}
+
+.inspiration-title{
+      font-weight: 800;
+      font-size: 32px;
+      color: #0D1321;
+      margin-bottom: 24px;
+}
+
+.motivation{
+    padding: 32px;
+    border-radius: 16px;
+    border: 2px solid rgba(13, 19, 33, 0.2);
+}
+
+iframe{
+    border-radius: 16px;
 }
