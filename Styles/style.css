@@ -55,6 +55,26 @@
     padding: 48px;
 }
 
+.heading-style{
+    font-weight: 800;
+    font-size: 24px;
+    color: #0D1321;
+}
+
+.para-style2{
+    margin-top: 8px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 16px;
+    opacity: 0.7;
+    color: #0D1321;
+}
+
+.button-style{
+    font-weight: bold;
+    font-size: 16px;
+    color: #0D1321;
+}
 
 /* Nav styles */
 nav{
@@ -191,4 +211,109 @@ nav li button{
 
 iframe{
     border-radius: 16px;
+}
+
+
+/* Target style */
+.target{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 111px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.current-target{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    flex-direction: column;
+}
+
+.target-tech{
+    display: flex;
+    gap: 24px;
+    max-width: 1140px;
+}
+
+.tech{
+    width: 364px;
+    padding: 40px;
+    height: 199px;
+    text-align: start;
+    gap: 24px;
+    border-radius: 16px;
+    /* width: 477px;
+    padding: 0 30px 0 0;
+    text-align: start;
+    gap: 32px; */
+}
+
+.tech1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.tech2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.tech3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.next-target{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.next-target-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.next-tech{
+    display: flex;
+    gap: 24px;
+    border: 2px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    max-width: 1040px;
+    padding: 40px;
+}
+
+.next-tech .image1, .image3{
+    height: 96px;
+    padding: 10px 0;
+}
+
+.next-tech .image2{
+    height: 88px;
+    width: 143px;
+    padding: 24px 0;
+}
+
+/* width: 477px;
+    padding: 0 30px 0 0;
+    text-align: start;
+    gap: 32px; */
+.future-target{
+    text-align: start;
+    width: 941px;
+    padding: 0px;
+}
+
+.support{
+    max-width: 1040px;
+    height: 313px;
+    border-radius: 16px;
+    background-image: url('../assets/handshake.jpg');
+    background-size: cover;
+    margin: 0 270px auto;
+    margin-bottom: 100px;
+    align-items: center;
 }
