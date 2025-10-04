@@ -161,7 +161,7 @@ nav li button{
     gap: 32px;
     background-color: rgba(13, 19, 33, 0.02);
     padding: 80px 97px;
-    margin: 0 250px auto;
+    margin: 0 550px auto;
     border-radius: 16px;
     margin-bottom: 100px;
 }
@@ -351,4 +351,28 @@ iframe{
     width: 120px;
     font-weight: 500;
     font-size: 20px;
+}
+
+/* Footer style */
+.footnote{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 150px;
+}
+
+footer .note{
+    width: 456px;
+    padding: 0;
+    color: 0D1321;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer .foot-images{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
 }
